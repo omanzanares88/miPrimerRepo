@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/miPrimerRepo/probando/probando.csproj": {}
+    "D:\\Programacion Web\\miPrimerRepo\\probando\\probando.csproj": {}
   },
   "projects": {
-    "/workspaces/miPrimerRepo/probando/probando.csproj": {
+    "D:\\Programacion Web\\miPrimerRepo\\probando\\probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/miPrimerRepo/probando/probando.csproj",
+        "projectUniqueName": "D:\\Programacion Web\\miPrimerRepo\\probando\\probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/miPrimerRepo/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/miPrimerRepo/probando/obj/",
+        "projectPath": "D:\\Programacion Web\\miPrimerRepo\\probando\\probando.csproj",
+        "packagesPath": "C:\\Users\\omanzanares\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion Web\\miPrimerRepo\\probando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\omanzanares\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
